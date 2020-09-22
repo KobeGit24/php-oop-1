@@ -23,7 +23,7 @@
       if ($this-> userName) {
         $userProfile .= '<strong>UserName Utente: </strong>'. $this-> userName . '<br>';
       } else {
-        $userProfile .= '<strong>UserName Utente: </strong>'. 'NOT FOUND <br>';
+        $userProfile .= '<strong>UserName Utente: </strong> NOT FOUND';
       }
 
       return $userProfile;
