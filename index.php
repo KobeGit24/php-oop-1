@@ -17,7 +17,7 @@
     public function __toString() {
 
       $userProfile = '<strong>Nome Utente: </strong>'. $this-> name . '<br>'
-      . '<strong>Cognome Utente: </strong>'. $this-> lastname . '<br>'
+      . '<strong>Cognome Utente: </strong>'. $this-> lastName . '<br>'
       . '<strong>Email Utente: </strong>'. $this-> email . '<br>';
 
       if ($this-> userName) {
